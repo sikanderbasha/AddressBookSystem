@@ -63,8 +63,8 @@ namespace AddressBook
                 if (data.FirstName == FirstName)
                 {
                     contact = data;
-                    Console.WriteLine("\n 1. First name\n 2. Last name\n 3. Address\n 4. City\n 5. State\n 6. Zipcode\n 7. Phone number\n 8. Email ID\n 9. Exit");                   
-                        int option = Convert.ToInt32(Console.ReadLine());
+                    Console.WriteLine("\n 1. First name\n 2. Last name\n 3. Address\n 4. City\n 5. State\n 6. Zipcode\n 7. Phone number\n 8. Email ID\n 9. Exit");                                         
+                    int option = Convert.ToInt32(Console.ReadLine());
                         switch (option)
                         {
                             case 1:
@@ -103,6 +103,7 @@ namespace AddressBook
                                 Console.WriteLine("Enter Correct option!");
                                 break;
                         }
+
                         Display();
                         return;
                     
